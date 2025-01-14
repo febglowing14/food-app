@@ -1,0 +1,90 @@
+* {
+  background-color: pink;
+}
+
+h1 {
+  background-color: skyblue;
+  width: 20%;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  width: 10%;
+}
+
+h4 {
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logins {
+  display: flex;
+  
+  
+}
+.menu{
+  display: flex;
+  margin-left: 50%;
+  justify-content: space-between;
+ 
+  gap: 30%;
+
+} 
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5px;
+}
+
+.six {
+  width: 20%;
+  margin: 0; /* Removed unnecessary margin */
+  border-radius: 8%;
+  height: auto; /* Ensure proper aspect ratio */
+}
+
+.first {
+  display: flex; /* Ensure horizontal alignment */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Add spacing between the image and the text */
+  margin-top: 3%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column; /* Stack the name and rate vertically */
+  justify-content: flex-start; /* Align content at the top */
+  gap: 10px; /* Add spacing between hotel name and rating */
+}
+
+.hotelone {
+  margin: 0; /* Remove extra margins */
+  font-size: 1.5rem; /* Adjust font size */
+  font-weight: bold; /* Make the text bold */
+}
+
+.rateone {
+  display: flex; /* Align star and rating horizontally */
+  align-items: center; /* Align items vertically */
+  gap: 8px; /* Space between star and text */
+}
+
+.seven {
+  width: 24px; /* Adjust size of the star */
+  height: auto;
+}
