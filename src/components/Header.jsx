@@ -9,6 +9,7 @@ export default function Header() {
         <div >
             <div className='logins'>
         <h1>Food delivery app!</h1>
+        <input className='search' placeholder='search'></input>
         <div className='menu'>
         <h4>Singnup</h4>
         <h4>signin</h4>

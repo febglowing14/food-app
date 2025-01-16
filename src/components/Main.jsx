@@ -19,7 +19,16 @@ export default function Main() {
                 <button>Nearest</button>
                 <button>Great offers</button>
                 <button>Rating 4.0+</button>
-                <button>Cuisines</button>
+                <div className="dropdown">
+                    <select className="cuisines">
+                        <option value="default">North Indian</option>
+                        <option value="south">south Indian</option>
+                        <option value="chinese">chinese</option>
+                        <option value="Italian">Italian</option>
+                    </select>
+                </div>
+
+
             </div>
 
             <div className="first">
@@ -30,9 +39,11 @@ export default function Main() {
                         <img className="seven" src={star} alt="star" />
                         <h2>4.5</h2>
                         <h2>(54k+ Rating)</h2>
+                        <button className='firstmenu'>Menu</button>
                     </div>
                 </div>
             </div>
+           
 
         </div>
 
